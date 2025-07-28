@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三角洲鼠鼠偷吃模拟器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meme-section">
+            <img src="image/expression/hong.jpg" alt="表情包" class="meme-image">
+            <div class="search-title" id="searchTitle">第1次搜索【大保险箱】</div>
+        </div>
+
+        <div class="grid-container" id="gridContainer">
+            <!-- 4x4网格将由JavaScript动态生成 -->
+        </div>
+
+        <div class="total-value" id="totalValue">价值【0】</div>
+
+        <div class="button-container">
+            <button class="btn btn-pink" id="searchBtn">不够不够,继续吃!</button>
+            <button class="btn btn-green" id="recordsBtn">查看得吃记录</button>
+        </div>
+    </div>
+
+    <!-- 记录模态框 -->
+    <div class="records-modal" id="recordsModal">
+        <div class="records-content">
+            <span class="close-btn" id="closeRecords">&times;</span>
+            <div class="records-header">
+                <h2>【得吃记录】</h2>
+                <div class="search-count">共搜索【<span id="totalSearchCount">0</span>】次</div>
+            </div>
+            <div class="records-grid" id="recordsList"></div>
+            <div class="records-footer">
+                <div class="total-value-display">价值【<span id="recordsTotalValue">0</span>】</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
