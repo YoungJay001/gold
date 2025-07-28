@@ -6,15 +6,15 @@ class TreasureHunter {
         this.isSearching = false;
         
         this.qualityRanges = {
-            green: { min: 5000, max: 8000, color: 'quality-green', spins: 0.5 },
-            blue: { min: 8000, max: 20000, color: 'quality-blue', spins: 0.75 },
-            purple: { min: 20000, max: 80000, color: 'quality-purple', spins: 1 },
-            gold: { min: 100000, max: 300000, color: 'quality-gold', spins: 2 },
-            red: { min: 800000, max: 2000000, color: 'quality-red', spins: 2.5 }
+            green: { min: 5000, max: 8000, color: 'quality-green', spins: 1 },
+            blue: { min: 8000, max: 20000, color: 'quality-blue', spins: 1.5 },
+            purple: { min: 20000, max: 80000, color: 'quality-purple', spins: 2 },
+            gold: { min: 100000, max: 300000, color: 'quality-gold', spins: 2.5 },
+            red: { min: 800000, max: 2000000, color: 'quality-red', spins: 3 }
         };
 
         this.qualityNames = ['green', 'blue', 'purple', 'gold', 'red'];
-        this.qualityWeights = [0.4, 0.3, 0.2, 0.08, 0.02]; // 概率权重
+        this.qualityWeights = [0.3, 0.3, 0.2, 0.13, 0.07]; // 概率权重
 
         this.init();
     }
