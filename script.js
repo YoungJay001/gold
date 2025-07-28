@@ -14,7 +14,7 @@ class TreasureHunter {
         };
 
         this.qualityNames = ['green', 'blue', 'purple', 'gold', 'red'];
-        this.qualityWeights = [0.3, 0.3, 0.2, 0.13, 0.07]; // 概率权重
+        this.qualityWeights = [0.3, 0.3, 0.2, 0.15, 0.05]; // 概率权重
 
         this.init();
     }
